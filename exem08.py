@@ -15,8 +15,8 @@ while executar:
         fila1.append(input("Digite o nome do cliente:"))
       elif letra == "A":
         if len(fila1) > 0:
-          print(f"Cliente --{fila1[0]}-- atendido")
-          fila1.pop(0)
+          atendido = fila1.pop(0)
+          print(f"cliente --{atendido}-- atendido")
         else:
           print("Fila vazia")
       elif letra == "S":
